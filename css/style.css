@@ -1,15 +1,13 @@
 @media (max-width: 479px) {
-  body {
+  body{
     letter-spacing: .1em;
     font-weight: 100;
     font-family: Helvetica, sans-serif;
   }
-
-  body.noscroll {
+  body.noscroll{
     overflow: hidden;
   }
-
-  header {
+  header{
     height: 8vh;
     width: 100%;
     display: flex;
@@ -20,8 +18,7 @@
     z-index: 9;
     background-color: #fff;
   }
-
-  header img {
+  header img{
     width: 80px;
     height: 50px;
     margin: 10px auto;
@@ -29,25 +26,21 @@
     right: 50%;
     transform: translateX(50%);
   }
-
-  nav {
+  nav{
     display: none;
   }
-
-  .nav-links {
+  .nav-links{
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
     background-color: #fff;
     width: 100%;
-    transform: translateX(100%);
+    transform: translateX(100%); 
     transition: transform .5s ease-in;
     z-index: 7;
-
   }
-
-  .nav-links ul {
+  .nav-links ul{
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -55,51 +48,42 @@
     transform: translateY(-25vh);
     text-align: center;
   }
-
-  .nav-links li {
+  .nav-links li{
     list-style: none;
     margin-top: 40px;
     font-size: 20px;
   }
-
-  .nav-links a {
+  .nav-links a{
     text-decoration: none;
     color: #000;
   }
-
-  .nav-active {
+  .nav-active{
     transform: translateX(0%);
   }
-
-  .burger {
+  .burger{
     position: fixed;
     z-index: 8;
     margin-top: 20px;
     margin-left: 20px;
     right: 10px;
   }
-
-  .burger div {
+  .burger div{
     width: 25px;
     height: 2px;
     margin: 6px;
     background-color: #000;
     transition: all 0.3s ease;
   }
-
-  .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
   }
-
-  .toggle .line2 {
+  .toggle .line2{
     opacity: 0;
   }
-
-  .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+  .toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
   }
-
-  main {
+  main{
     width: 90%;
     height: 90vh;
     margin: 0 auto;
@@ -107,59 +91,48 @@
     text-align: center;
     position: relative;
   }
-
-  .top img {
+  .top img{
     width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
   }
-
-  .about {
+  .about{
     height: 80vh;
     text-align: left;
   }
-
-  .about .inner {
+  .about .inner{
     padding: 30px;
   }
-
-  .about img {
+  .about img{
     width: 70%;
     margin-bottom: 30px;
   }
-
-  .about-me h2 {
+  .about-me h2{
     font-weight: 100;
     font-size: 16px;
     margin-bottom: 20px;
   }
-
-  .about .sub {
+  .about .sub{
     margin-bottom: 20px;
   }
-
-  .about .main-text {
+  .about .main-text{
     font-size: 14px;
     line-height: 1.8em;
   }
-
-  .works img {
+  .works img{
     width: 60%;
   }
-
   .contacts {
     margin-top: 30vh;
   }
-
-  .contacts p {
+  .contacts p{
     margin-bottom: 20px;
   }
 }
-
 @media (min-width: 480px) {
-  body {
+  body{
     width: 100%;
     height: 90vh;
     margin: auto;
@@ -169,34 +142,29 @@
     box-sizing: border-box;
   }
 
-  header {
+  header{
     height: 15vh;
     line-height: 15vh;
     display: flex;
     justify-content: space-between;
     border: none;
   }
-
-  header img {
+  header img{
     width: 180px;
     height: 120px;
     padding-top: 5vh;
     padding-left: 20%;
   }
-
-  .burger {
+  .burger{
     display: none;
   }
-
-  nav {
+  nav{
     display: block;
   }
-
-  .nav-links {
+  .nav-links{
     display: none;
   }
-
-  main {
+  main{
     width: 95%;
     margin: 25px auto;
     padding-top: 10vh;
@@ -204,151 +172,128 @@
     justify-content: space-between;
     position: unset;
   }
-
-  main nav {
+  main nav{
     width: 20%;
     text-align: center;
     padding-right: 26px;
     float: left;
   }
-
-  main ul {
+  main ul{
     padding-right: 30px;
   }
-
-  main ul li {
+  main ul li{
     margin-bottom: 40px;
     text-align: right;
   }
-
-  main ul li:hover {
+  main ul li:hover{
     opacity: 0.5;
   }
 
-  main ul a {
+  main ul a{
     text-decoration: none;
     color: #000;
   }
-
-  .sec01 {
+  .sec01{
     border-left: 2px solid #555555;
     width: 100%;
     min-height: 80vh;
     margin-right: 100px;
   }
-
-  .top-img {
+  .top-img{
     width: 85%;
     object-fit: cover;
     transform: rotate(180deg);
     position: unset;
   }
-
-  .top .inner {
+  .top .inner{
     margin-top: 0;
     text-align: right;
   }
-
-  .inner {
+  .inner{
     width: 90%;
     margin: 20px auto;
   }
-
-  .sec01 h1 {
+  .sec01 h1{
     text-align: center;
     font-size: 80px;
     font-weight: 100;
     line-height: 20vh;
   }
-
-  .sec01 .main-text {
+  .sec01 .main-text{
     line-height: 1.8em;
     margin-top: 30px;
   }
-
-  footer {
+  footer{
     height: 10vh;
   }
-
-  footer p {
+  footer p{
     line-height: 10vh;
   }
 
   /* about */
-  .about {
+  .about{
     width: 100%;
     height: 100%;
   }
-
-  .about-me {
+  .about-me{
     width: 57%;
     margin-left: auto;
   }
-
-  .about img {
+  .about img{
     width: 40%;
     height: 40%;
     object-fit: cover;
     margin-bottom: 3%;
   }
-
-  .about h2 {
+  .about h2{
     font-size: 30px;
     font-weight: 100;
     margin-bottom: 20px;
   }
-
-  .about .sub {
+  .about .sub{
     font-size: 12px;
   }
-
-  .about .main-text {
+  .about .main-text{
     font-size: 12px;
   }
-
-  .about .english {
+  .about .english{
     margin-top: 50px;
     font-size: 14px;
   }
 
   /* works */
-  .works {
+  .works{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-
-  .work {
+  .work{
     margin: 24px;
   }
-
-  .works img {
+  .works img{
     width: 200px;
     height: 400px;
     object-fit: cover;
   }
-
   /* contact */
-  .contact {
+  .contact{
     height: 500px;
     position: relative;
   }
-
-  .contacts {
+  .contacts{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
   }
-
-  .contacts p {
+  .contacts p{
     text-align: center;
     margin-bottom: 30px;
   }
 }
 
 @media (min-width: 1441px) {
-  header {
+  header{
     padding: 0 10%;
   }
 }
